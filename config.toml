@@ -1,0 +1,110 @@
+# default config
+baseurl = "https://hexus.eu"
+languageCode = "sk-sk"
+title = "Home | HeXus.eu"
+theme = "parsa-hugo"
+summaryLength = "10"
+paginate = 6
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/headroom/headroom.js"
+[[params.plugins.js]]
+link = "plugins/instafeed/instafeed.min.js"
+[[params.plugins.js]]
+link = "plugins/masonry/masonry.js"
+[[params.plugins.js]]
+link = "plugins/reading-time/readingTime.min.js"
+[[params.plugins.js]]
+link = "plugins/smooth-scroll/smooth-scroll.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+# navigation
+
+[[menu.main]]
+name = "O nás"
+url = "o-nas/"
+weight = 2
+
+[[menu.main]]
+name = "Kontakt"
+url = "kontakt/"
+weight = 3
+
+# deult parameter
+[params]
+logo = "images/logo.png"
+home = "Domov"
+# theme layout
+layout = "1"
+# Meta data
+description = "Czech & Slovak Esport oraganization"
+# Preloader
+preloader = true
+# search
+search = false
+# about author
+author = "HeXus"
+author_image = ""
+bio = "Hexus is a organization based in central Europe that specializes in providing game server administration services."
+# Contact info
+mobile = "+420 739 871 938"
+email = "info@hexus.eu"
+address = "HeXus - okres Brno-město"
+# Contact Form Action
+contact_form_action = "#"
+# copyright
+copyright = "Copyright &copy; 2022 HeXus"
+
+# Instagram feed
+[params.instafeed]
+enable = false
+access_token = ""
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+# social site
+[[params.social]]
+icon = "ti-facebook"
+link = "https://www.facebook.com/officialhexus"
+
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "#"
+
+[[params.social]]
+icon = "ti-linkedin"
+link = "#"
+
+[[params.social]]
+icon = "ti-github"
+link = "#"

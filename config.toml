@@ -80,7 +80,7 @@ address = "HeXus - okres Brno-město"
 # Contact Form Action
 contact_form_action = "#"
 # copyright
-copyright = "Copyright &copy; 2022 HeXus"
+copyright = "Copyright &copy; 2023 HeXus"
 
 # Instagram feed
 [params.instafeed]
